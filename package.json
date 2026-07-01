@@ -1,0 +1,33 @@
+{
+  "name": "homly-server",
+  "version": "1.0.0",
+  "description": "Server for Homly",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon -L server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shobhit2603/homly-server.git"
+  },
+  "keywords": [],
+  "author": "Shobhit",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/shobhit2603/homly-server/issues"
+  },
+  "homepage": "https://github.com/shobhit2603/homly-server#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.3",
+    "morgan": "^1.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
